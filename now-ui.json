@@ -1,0 +1,23 @@
+{
+	"components": {
+	    "snc-x-snc-mfg-macro": {
+	      "innerComponents": [],
+				"uiBuilder": {
+					"associatedTypes": ["global.core", "global.landing-page"],
+					"label": "MFG Deviation Types Macroponent",
+					"icon": "document-outline",
+					"description": "A description of my component",
+					"category": "primitives"
+				},
+				"actions": [
+					{
+						"description": "Deviation Type Selected",
+						"label": "Deviation Type Selected",
+						"action": "DEVIATION_TYPE_SELECTED",
+						"payload": []
+					}
+				]
+	    }
+	},
+	"scopeName": "x_snc_x_snc_mfg_0"
+}
